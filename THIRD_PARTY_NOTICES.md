@@ -1,9 +1,9 @@
 # Third-party notices
 
-## GUI chess-piece images ? public-domain Livius set
+## GUI chess-piece images - public-domain Livius set
 
 The twelve PNGs in `src/gui/assets/pieces/` use **Livius**, an original design
-by **Martin Sedl?k (kmar), 2026**. They replace the previously unverified images.
+by **Martin Sedlák (kmar), 2026**. They replace the previously unverified images.
 
 - Source repository: https://github.com/kmar/chess_svg_piece_sets
 - Exact revision: `af40ea51e87eddee1ae7ee35ae312893a1271233`
@@ -12,7 +12,7 @@ by **Martin Sedl?k (kmar), 2026**. They replace the previously unverified images
 - Upstream statement: https://github.com/kmar/chess_svg_piece_sets/blob/af40ea51e87eddee1ae7ee35ae312893a1271233/README.md
 
 **License: public-domain dedication.** The author describes the sets as
-?cc0/public domain?; the actual supplied LICENSE is a public-domain dedication,
+"CC0/public domain"; the actual supplied LICENSE is a public-domain dedication,
 not the standard CC0 1.0 legal-code text. We preserve that exact dedication rather
 than substitute or claim a different license. It explicitly allows reproduction,
 distribution, modification and commercial/non-commercial exploitation.
@@ -20,7 +20,7 @@ No attribution condition is stated; the author credit is retained voluntarily.
 
 Unmodified SVGs, the upstream dedication and README, and SHA-256 provenance are
 bundled in `src/gui/assets/pieces/livius/`. The artwork was rasterized to transparent
-256 ? 256 PNGs with resvg-py 0.5.0; lowercase upstream names map to the existing
+256 x 256 PNGs with resvg-py 0.5.0; lowercase upstream names map to the existing
 `wK/wQ/wR/wB/wN/wP` and `bK/bQ/bR/bB/bN/bP` PNG filenames. No shape/color edits
 were made. resvg-py is an offline conversion tool, not a GUI dependency.
 The native window icon uses the replacement `wN.png`; refreshed screenshots depict
