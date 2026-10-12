@@ -137,7 +137,7 @@ An independent engineering project spanning C++, algorithms, machine learning, m
 ## License and asset notices
 
 ChessAI source code is licensed under [MIT](LICENSE). The bundled Livius chess
-pieces are public-domain artwork by Martin Sedl?k, under their own dedication.
+pieces are public-domain artwork by Martin Sedlák, under their own dedication.
 The project MIT license does not override third-party asset licenses. See
 [third-party notices](THIRD_PARTY_NOTICES.md) for the exact source, revision and
 license, and the [publication audit](docs/PUBLICATION_AUDIT.md) for release checks.
