@@ -1,0 +1,65 @@
+id	family	variant	fen	moves
+ext-01	Italian	1	r1bqk2r/ppp2ppp/2np1n2/2b1p3/2B1P3/3P1N2/PPP2PPP/RNBQ1RK1 w kq - 0 6	e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 d2d3 g8f6 e1g1 d7d6
+ext-02	Italian	2	r1bqk2r/ppp2ppp/2np1n2/2b1p3/2B1P3/2NP1N2/PPP2PPP/R1BQK2R w KQkq - 0 6	e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 d2d3 g8f6 b1c3 d7d6
+ext-03	Ruy Lopez	1	r1bqkb1r/2pp1ppp/p1n2n2/1p2p3/B3P3/3P1N2/PPP2PPP/RNBQK2R w KQkq b6 0 6	e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 d2d3 b7b5
+ext-04	Ruy Lopez	2	r1bqkb1r/2pp1ppp/p1n2n2/1p2p3/B3P3/2N2N2/PPPP1PPP/R1BQK2R w KQkq b6 0 6	e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 b1c3 b7b5
+ext-05	Scotch	1	r1bqk1nr/pppp1ppp/1bn5/8/4P3/1N6/PPP2PPP/RNBQKB1R w KQkq - 3 6	e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 f8c5 d4b3 c5b6
+ext-06	Scotch	2	r1bqk1nr/pppp1ppp/1bn5/8/3NP3/4B3/PPP2PPP/RN1QKB1R w KQkq - 3 6	e2e4 e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 f8c5 c1e3 c5b6
+ext-07	Four Knights	1	r1bq1rk1/pppp1ppp/2n2n2/1B2p3/1b2P3/2N2N2/PPPP1PPP/R1BQ1RK1 w - - 8 6	e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 f1b5 f8b4 e1g1 e8g8
+ext-08	Four Knights	2	r1bqk2r/ppp2ppp/2np1n2/1B2p3/1b2P3/2NP1N2/PPP2PPP/R1BQK2R w KQkq - 0 6	e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 f1b5 f8b4 d2d3 d7d6
+ext-09	Petrov	1	rnbqk2r/ppp1bppp/3p4/8/8/2P2N2/P1PP1PPP/R1BQKB1R w KQkq - 1 7	e2e4 e7e5 g1f3 g8f6 f3e5 d7d6 e5f3 f6e4 b1c3 e4c3 b2c3 f8e7
+ext-10	Petrov	2	rnbqkb1r/ppp2ppp/3p1n2/8/8/3P1N2/PPP2PPP/RNBQKB1R w KQkq - 1 6	e2e4 e7e5 g1f3 g8f6 f3e5 d7d6 e5f3 f6e4 d2d3 e4f6
+ext-11	Vienna	1	r1bqk2r/ppp2ppp/2np1n2/2b1p3/2B1P3/2NP4/PPP1NPPP/R1BQK2R w KQkq - 0 6	e2e4 e7e5 b1c3 b8c6 f1c4 g8f6 d2d3 f8c5 g1e2 d7d6
+ext-12	Vienna	2	r1bqk2r/pppp1ppp/1bn2n2/4p3/2B1P3/2NPB3/PPP2PPP/R2QK1NR w KQkq - 3 6	e2e4 e7e5 b1c3 b8c6 f1c4 g8f6 d2d3 f8c5 c1e3 c5b6
+ext-13	Sicilian Najdorf	1	rnbqkb1r/1p3ppp/p2ppn2/8/3NP3/2N1B3/PPP2PPP/R2QKB1R w KQkq - 0 7	e2e4 c7c5 g1f3 d7d6 d2d4 c5d4 f3d4 g8f6 b1c3 a7a6 c1e3 e7e6
+ext-14	Sicilian Najdorf	2	rnbqkb1r/1p3ppp/p2p1n2/4p3/3NP3/2N3P1/PPP2P1P/R1BQKB1R w KQkq e6 0 7	e2e4 c7c5 g1f3 d7d6 d2d4 c5d4 f3d4 g8f6 b1c3 a7a6 g2g3 e7e5
+ext-15	Sicilian Dragon	1	rnbqk2r/pp2ppbp/3p1np1/8/3NP3/2N3P1/PPP2P1P/R1BQKB1R w KQkq - 1 7	e2e4 c7c5 g1f3 d7d6 d2d4 c5d4 f3d4 g8f6 b1c3 g7g6 g2g3 f8g7
+ext-16	Sicilian Dragon	2	rnbqk2r/pp2ppbp/3p1np1/8/3NP3/2N5/PPP1BPPP/R1BQK2R w KQkq - 2 7	e2e4 c7c5 g1f3 d7d6 d2d4 c5d4 f3d4 g8f6 b1c3 g7g6 f1e2 f8g7
+ext-17	Sicilian Taimanov	1	r1bqkbnr/1p1p1ppp/p1n1p3/8/3NP3/2N5/PPP2PPP/R1BQKB1R w KQkq - 0 6	e2e4 c7c5 g1f3 e7e6 d2d4 c5d4 f3d4 b8c6 b1c3 a7a6
+ext-18	Sicilian Taimanov	2	r1bqkbnr/p2p1ppp/2p1p3/8/4P3/8/PPP2PPP/RNBQKB1R w KQkq - 0 6	e2e4 c7c5 g1f3 e7e6 d2d4 c5d4 f3d4 b8c6 d4c6 b7c6
+ext-19	Sicilian Kan	1	rnbqkb1r/1p1p1ppp/p3pn2/8/2PNP3/8/PP3PPP/RNBQKB1R w KQkq - 1 6	e2e4 c7c5 g1f3 e7e6 d2d4 c5d4 f3d4 a7a6 c2c4 g8f6
+ext-20	Sicilian Kan	2	rnbqkbnr/3p1ppp/p3p3/1p6/3NP3/2N5/PPP2PPP/R1BQKB1R w KQkq b6 0 6	e2e4 c7c5 g1f3 e7e6 d2d4 c5d4 f3d4 a7a6 b1c3 b7b5
+ext-21	Sicilian Closed	1	r1bqk1nr/pp2ppbp/2np2p1/2p5/4P3/2NP2P1/PPP2PBP/R1BQK1NR w KQkq - 0 6	e2e4 c7c5 b1c3 b8c6 g2g3 g7g6 f1g2 f8g7 d2d3 d7d6
+ext-22	Sicilian Closed	2	r1bqk1nr/pp2ppbp/2np2p1/2p5/4P3/2N3P1/PPPPNPBP/R1BQK2R w KQkq - 0 6	e2e4 c7c5 b1c3 b8c6 g2g3 g7g6 f1g2 f8g7 g1e2 d7d6
+ext-23	French Advance	1	r1b1kbnr/pp3ppp/1qn1p3/2ppP3/3P4/2P2N2/PP3PPP/RNBQKB1R w KQkq - 3 6	e2e4 e7e6 d2d4 d7d5 e4e5 c7c5 c2c3 b8c6 g1f3 d8b6
+ext-24	French Advance	2	r1b1kbnr/pp3ppp/1qn1p3/2ppP3/3P4/2P1B3/PP3PPP/RN1QKBNR w KQkq - 3 6	e2e4 e7e6 d2d4 d7d5 e4e5 c7c5 c2c3 b8c6 c1e3 d8b6
+ext-25	French Exchange	1	rnbqk2r/ppp2ppp/3b1n2/3p4/3P4/3B1N2/PPP2PPP/RNBQK2R w KQkq - 4 6	e2e4 e7e6 d2d4 d7d5 e4d5 e6d5 g1f3 g8f6 f1d3 f8d6
+ext-26	French Exchange	2	rnbqk2r/ppp2ppp/3b1n2/3p4/3P4/5N2/PPP1BPPP/RNBQK2R w KQkq - 4 6	e2e4 e7e6 d2d4 d7d5 e4d5 e6d5 g1f3 g8f6 f1e2 f8d6
+ext-27	French Tarrasch	1	rnbqkb1r/pp1n1ppp/4p3/2ppP3/3P4/3B4/PPPN1PPP/R1BQK1NR w KQkq c6 0 6	e2e4 e7e6 d2d4 d7d5 b1d2 g8f6 e4e5 f6d7 f1d3 c7c5
+ext-28	French Tarrasch	2	rnbqkb1r/pp1n1ppp/4p3/2ppP3/3P4/5N2/PPPN1PPP/R1BQKB1R w KQkq c6 0 6	e2e4 e7e6 d2d4 d7d5 b1d2 g8f6 e4e5 f6d7 g1f3 c7c5
+ext-29	Caro-Kann Advance	1	r2qkbnr/pp1n1ppp/2p1p3/3pP3/3P4/3Q1N2/PPP2PPP/RNB1K2R w KQkq - 1 7	e2e4 c7c6 d2d4 d7d5 e4e5 c8f5 g1f3 e7e6 f1d3 f5d3 d1d3 b8d7
+ext-30	Caro-Kann Advance	2	r2qkbnr/pp1n1ppp/2p1p3/3pPb2/3P4/2P2N2/PP3PPP/RNBQKB1R w KQkq - 1 6	e2e4 c7c6 d2d4 d7d5 e4e5 c8f5 g1f3 e7e6 c2c3 b8d7
+ext-31	Caro-Kann Panov	1	rnbqkb1r/pp3ppp/4pn2/3p4/2PP4/2N5/PP3PPP/R1BQKBNR w KQkq - 0 6	e2e4 c7c6 d2d4 d7d5 e4d5 c6d5 c2c4 g8f6 b1c3 e7e6
+ext-32	Caro-Kann Panov	2	rnbqkb1r/pp3ppp/4pn2/3p4/2PP4/5N2/PP3PPP/RNBQKB1R w KQkq - 0 6	e2e4 c7c6 d2d4 d7d5 e4d5 c6d5 c2c4 g8f6 g1f3 e7e6
+ext-33	Scandinavian Qa5	1	rnb1kb1r/pp2pppp/2p2n2/q7/3P4/2N2N2/PPP2PPP/R1BQKB1R w KQkq - 0 6	e2e4 d7d5 e4d5 d8d5 b1c3 d5a5 d2d4 g8f6 g1f3 c7c6
+ext-34	Scandinavian Qa5	2	rnb1kb1r/pp2pppp/2p2n2/q7/2BP4/2N5/PPP2PPP/R1BQK1NR w KQkq - 0 6	e2e4 d7d5 e4d5 d8d5 b1c3 d5a5 d2d4 g8f6 f1c4 c7c6
+ext-35	Scandinavian Qd6	1	rnb1kb1r/1pp1pppp/p2q1n2/8/3P4/2N2N2/PPP2PPP/R1BQKB1R w KQkq - 0 6	e2e4 d7d5 e4d5 d8d5 b1c3 d5d6 d2d4 g8f6 g1f3 a7a6
+ext-36	Scandinavian Qd6	2	rnb1kb1r/1pp1pppp/p2q1n2/8/3P4/2N3P1/PPP2P1P/R1BQKBNR w KQkq - 0 6	e2e4 d7d5 e4d5 d8d5 b1c3 d5d6 d2d4 g8f6 g2g3 a7a6
+ext-37	Queens Gambit Declined	1	rnbqk2r/ppp1bpp1/4pn1p/3p2B1/2PP4/2N2N2/PP2PPPP/R2QKB1R w KQkq - 0 6	d2d4 d7d5 c2c4 e7e6 b1c3 g8f6 g1f3 f8e7 c1g5 h7h6
+ext-38	Queens Gambit Declined	2	rnbq1rk1/ppp1bppp/4pn2/3p4/2PP4/2N1PN2/PP3PPP/R1BQKB1R w KQ - 1 6	d2d4 d7d5 c2c4 e7e6 b1c3 g8f6 g1f3 f8e7 e2e3 e8g8
+ext-39	Queens Gambit Accepted	1	rnbqkb1r/pp3ppp/4pn2/2p5/2BP4/4PN2/PP3PPP/RNBQK2R w KQkq c6 0 6	d2d4 d7d5 c2c4 d5c4 g1f3 g8f6 e2e3 e7e6 f1c4 c7c5
+ext-40	Queens Gambit Accepted	2	rnbqkb1r/1pp2ppp/p3pn2/8/2BP4/4PN2/PP3PPP/RNBQK2R w KQkq - 0 6	d2d4 d7d5 c2c4 d5c4 g1f3 g8f6 e2e3 e7e6 f1c4 a7a6
+ext-41	Slav Exchange	1	r1bqkb1r/pp2pppp/2n2n2/3p4/3P1B2/2N5/PP2PPPP/R2QKBNR w KQkq - 4 6	d2d4 d7d5 c2c4 c7c6 c4d5 c6d5 b1c3 g8f6 c1f4 b8c6
+ext-42	Slav Exchange	2	r1bqkb1r/pp2pppp/2n2n2/3p4/3P4/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 4 6	d2d4 d7d5 c2c4 c7c6 c4d5 c6d5 b1c3 g8f6 g1f3 b8c6
+ext-43	Semi-Slav	1	rnbqkb1r/1p3ppp/p1p1pn2/3p4/2PP4/2N1PN2/PP3PPP/R1BQKB1R w KQkq - 0 6	d2d4 d7d5 c2c4 c7c6 g1f3 g8f6 b1c3 e7e6 e2e3 a7a6
+ext-44	Semi-Slav	2	r1bqkb1r/pp1n1ppp/2p1pn2/3p4/2PP4/2N2N2/PPQ1PPPP/R1B1KB1R w KQkq - 2 6	d2d4 d7d5 c2c4 c7c6 g1f3 g8f6 b1c3 e7e6 d1c2 b8d7
+ext-45	Kings Indian	1	rnbq1rk1/ppp1ppbp/3p1np1/8/2PPP3/2N5/PP2BPPP/R1BQK1NR w KQ - 2 6	d2d4 g8f6 c2c4 g7g6 b1c3 f8g7 e2e4 d7d6 f1e2 e8g8
+ext-46	Kings Indian	2	rnbq1rk1/ppp1ppbp/3p1np1/8/2PPP3/2N3P1/PP3P1P/R1BQKBNR w KQ - 1 6	d2d4 g8f6 c2c4 g7g6 b1c3 f8g7 e2e4 d7d6 g2g3 e8g8
+ext-47	Queens Indian	1	rn1qk2r/pbppbppp/1p2pn2/8/2PP4/5NP1/PP2PPBP/RNBQK2R w KQkq - 3 6	d2d4 g8f6 c2c4 e7e6 g1f3 b7b6 g2g3 c8b7 f1g2 f8e7
+ext-48	Queens Indian	2	rn1qk2r/pbpp1ppp/1p2pn2/8/1bPP4/2N2NP1/PP2PP1P/R1BQKB1R w KQkq - 3 6	d2d4 g8f6 c2c4 e7e6 g1f3 b7b6 g2g3 c8b7 b1c3 f8b4
+ext-49	Nimzo Rubinstein	1	rnbq1rk1/ppp2ppp/4pn2/3p4/1bPP4/2NBP3/PP3PPP/R1BQK1NR w KQ d6 0 6	d2d4 g8f6 c2c4 e7e6 b1c3 f8b4 e2e3 e8g8 f1d3 d7d5
+ext-50	Nimzo Rubinstein	2	rnbq1rk1/ppp2ppp/4pn2/3p4/1bPP4/2N1PN2/PP3PPP/R1BQKB1R w KQ d6 0 6	d2d4 g8f6 c2c4 e7e6 b1c3 f8b4 e2e3 e8g8 g1f3 d7d5
+ext-51	Nimzo Classical	1	rnbq1rk1/ppp2ppp/4pn2/3p4/2PP4/P1Q5/1P2PPPP/R1B1KBNR w KQ d6 0 7	d2d4 g8f6 c2c4 e7e6 b1c3 f8b4 d1c2 e8g8 a2a3 b4c3 c2c3 d7d5
+ext-52	Nimzo Classical	2	rnbq1rk1/ppp2ppp/4pn2/3p4/1bPP4/2N2N2/PPQ1PPPP/R1B1KB1R w KQ d6 0 6	d2d4 g8f6 c2c4 e7e6 b1c3 f8b4 d1c2 e8g8 g1f3 d7d5
+ext-53	English Symmetrical	1	r1bqk2r/pp1pppbp/2n2np1/2p5/2P5/2N2NP1/PP1PPPBP/R1BQK2R w KQkq - 4 6	c2c4 c7c5 b1c3 b8c6 g2g3 g7g6 f1g2 f8g7 g1f3 g8f6
+ext-54	English Symmetrical	2	r1bqk1nr/pp1p1pbp/2n1p1p1/2p5/2P5/2N1P1P1/PP1P1PBP/R1BQK1NR w KQkq - 0 6	c2c4 c7c5 b1c3 b8c6 g2g3 g7g6 f1g2 f8g7 e2e3 e7e6
+ext-55	English Reversed Sicilian	1	rnbqkb1r/ppp2ppp/1n6/4p3/8/2N3P1/PP1PPPBP/R1BQK1NR w KQkq - 2 6	c2c4 e7e5 b1c3 g8f6 g2g3 d7d5 c4d5 f6d5 f1g2 d5b6
+ext-56	English Reversed Sicilian	2	r1bqkb1r/ppp2ppp/2n5/3np3/8/2N2NP1/PP1PPP1P/R1BQKB1R w KQkq - 2 6	c2c4 e7e5 b1c3 g8f6 g2g3 d7d5 c4d5 f6d5 g1f3 b8c6
+ext-57	Reti	1	rnbq1rk1/ppp1ppbp/5np1/3p4/8/3P1NP1/PPP1PPBP/RNBQ1RK1 w - - 1 6	g1f3 d7d5 g2g3 g8f6 f1g2 g7g6 e1g1 f8g7 d2d3 e8g8
+ext-58	Reti	2	rnbq1rk1/ppp1ppbp/5np1/3p4/8/1P3NP1/P1PPPPBP/RNBQ1RK1 w - - 1 6	g1f3 d7d5 g2g3 g8f6 f1g2 g7g6 e1g1 f8g7 b2b3 e8g8
+ext-59	Catalan	1	rnbq1rk1/ppp1bppp/4pn2/3p4/2PP4/5NP1/PP2PPBP/RNBQK2R w KQ - 3 6	d2d4 g8f6 c2c4 e7e6 g1f3 d7d5 g2g3 f8e7 f1g2 e8g8
+ext-60	Catalan	2	rnbq1rk1/ppp1bppp/4pn2/3p4/2PP4/2N2NP1/PP2PP1P/R1BQKB1R w KQ - 3 6	d2d4 g8f6 c2c4 e7e6 g1f3 d7d5 g2g3 f8e7 b1c3 e8g8
+ext-61	Pirc	1	rnbq1rk1/ppp1ppbp/3p1np1/8/3PP3/2N2N2/PPP1BPPP/R1BQK2R w KQ - 4 6	e2e4 d7d6 d2d4 g8f6 b1c3 g7g6 g1f3 f8g7 f1e2 e8g8
+ext-62	Pirc	2	rnbq1rk1/ppp1ppbp/3p1np1/8/3PP3/2N2N1P/PPP2PP1/R1BQKB1R w KQ - 1 6	e2e4 d7d6 d2d4 g8f6 b1c3 g7g6 g1f3 f8g7 h2h3 e8g8
+ext-63	Dutch	1	rnbq1rk1/ppppb1pp/4pn2/5p2/3P4/5NP1/PPP1PPBP/RNBQ1RK1 w - - 4 6	d2d4 f7f5 g2g3 g8f6 f1g2 e7e6 g1f3 f8e7 e1g1 e8g8
+ext-64	Dutch	2	rnbq1rk1/ppppb1pp/4pn2/5p2/2PP4/5NP1/PP2PPBP/RNBQK2R w KQ - 1 6	d2d4 f7f5 g2g3 g8f6 f1g2 e7e6 g1f3 f8e7 c2c4 e8g8

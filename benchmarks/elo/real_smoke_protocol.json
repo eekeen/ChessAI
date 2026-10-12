@@ -1,0 +1,230 @@
+{
+  "protocol_sha256": "b5f602231429e06b84948839dea795c125def1fa947063ec1a7107e286b44906",
+  "protocol": {
+    "format": 1,
+    "purpose": "smoke",
+    "label": "Stockfish UCI_Elo calibrated under this exact move-time protocol",
+    "manifest_sha256": "58520f80a735353a7366d782b38af9ce246110b1ee4c55a6f422fb400f60490e",
+    "manifest_version": "external-calibration-openings-v1",
+    "chessai": {
+      "type": "hello",
+      "protocol": 1,
+      "model": "v2-residual-3fb0a29e8514af8c",
+      "alpha": 0.25,
+      "mode": "hybrid",
+      "backend": "avx2-tail-active-list",
+      "build": "Release",
+      "compiler": "MSVC-19.28.29914.0",
+      "threads": 1,
+      "tt_entries": 262144,
+      "tt_bytes": 8388608,
+      "max_depth": 64,
+      "binary_sha256": "85c76233d5a86612f5ca4644625a3927605f7bdd6f2ceca6df048c4ebee88b3c"
+    },
+    "stockfish": {
+      "name": "Stockfish 19",
+      "id_lines": [
+        "id name Stockfish 19",
+        "id author the Stockfish developers (see AUTHORS file)"
+      ],
+      "binary_sha256": "45bc8e4969147db9c2eb533810637994619bff0eacc81ccfd9854394901bcbd0",
+      "elo_range": [
+        1320,
+        3190
+      ],
+      "supported_options": {
+        "Debug Log File": {
+          "name": "Debug Log File",
+          "type": "string",
+          "raw": "option name Debug Log File type string default <empty>",
+          "default": "<empty>"
+        },
+        "NumaPolicy": {
+          "name": "NumaPolicy",
+          "type": "string",
+          "raw": "option name NumaPolicy type string default auto",
+          "default": "auto"
+        },
+        "Threads": {
+          "name": "Threads",
+          "type": "spin",
+          "raw": "option name Threads type spin default 1 min 1 max 1024",
+          "default": 1,
+          "min": 1,
+          "max": 1024
+        },
+        "Hash": {
+          "name": "Hash",
+          "type": "spin",
+          "raw": "option name Hash type spin default 16 min 1 max 33554432",
+          "default": 16,
+          "min": 1,
+          "max": 33554432
+        },
+        "Clear Hash": {
+          "name": "Clear Hash",
+          "type": "button",
+          "raw": "option name Clear Hash type button"
+        },
+        "Ponder": {
+          "name": "Ponder",
+          "type": "check",
+          "raw": "option name Ponder type check default false",
+          "default": false
+        },
+        "MultiPV": {
+          "name": "MultiPV",
+          "type": "spin",
+          "raw": "option name MultiPV type spin default 1 min 1 max 256",
+          "default": 1,
+          "min": 1,
+          "max": 256
+        },
+        "Skill Level": {
+          "name": "Skill Level",
+          "type": "spin",
+          "raw": "option name Skill Level type spin default 20 min 0 max 20",
+          "default": 20,
+          "min": 0,
+          "max": 20
+        },
+        "Move Overhead": {
+          "name": "Move Overhead",
+          "type": "spin",
+          "raw": "option name Move Overhead type spin default 10 min 0 max 5000",
+          "default": 10,
+          "min": 0,
+          "max": 5000
+        },
+        "nodestime": {
+          "name": "nodestime",
+          "type": "spin",
+          "raw": "option name nodestime type spin default 0 min 0 max 10000",
+          "default": 0,
+          "min": 0,
+          "max": 10000
+        },
+        "UCI_Chess960": {
+          "name": "UCI_Chess960",
+          "type": "check",
+          "raw": "option name UCI_Chess960 type check default false",
+          "default": false
+        },
+        "UCI_LimitStrength": {
+          "name": "UCI_LimitStrength",
+          "type": "check",
+          "raw": "option name UCI_LimitStrength type check default false",
+          "default": false
+        },
+        "UCI_Elo": {
+          "name": "UCI_Elo",
+          "type": "spin",
+          "raw": "option name UCI_Elo type spin default 1320 min 1320 max 3190",
+          "default": 1320,
+          "min": 1320,
+          "max": 3190
+        },
+        "UCI_ShowWDL": {
+          "name": "UCI_ShowWDL",
+          "type": "check",
+          "raw": "option name UCI_ShowWDL type check default false",
+          "default": false
+        },
+        "SyzygyPath": {
+          "name": "SyzygyPath",
+          "type": "string",
+          "raw": "option name SyzygyPath type string default <empty>",
+          "default": "<empty>"
+        },
+        "SyzygyProbeDepth": {
+          "name": "SyzygyProbeDepth",
+          "type": "spin",
+          "raw": "option name SyzygyProbeDepth type spin default 1 min 1 max 100",
+          "default": 1,
+          "min": 1,
+          "max": 100
+        },
+        "Syzygy50MoveRule": {
+          "name": "Syzygy50MoveRule",
+          "type": "check",
+          "raw": "option name Syzygy50MoveRule type check default true",
+          "default": true
+        },
+        "SyzygyProbeLimit": {
+          "name": "SyzygyProbeLimit",
+          "type": "spin",
+          "raw": "option name SyzygyProbeLimit type spin default 7 min 0 max 7",
+          "default": 7,
+          "min": 0,
+          "max": 7
+        },
+        "EvalFile": {
+          "name": "EvalFile",
+          "type": "string",
+          "raw": "option name EvalFile type string default nn-1a298aa575a0.nnue",
+          "default": "nn-1a298aa575a0.nnue"
+        }
+      },
+      "options_used": {
+        "Threads": 1,
+        "Hash": 64,
+        "UCI_LimitStrength": true,
+        "Ponder": false,
+        "MultiPV": 1,
+        "UCI_Chess960": false,
+        "Move Overhead": 0,
+        "nodestime": 0,
+        "SyzygyPath": "",
+        "Skill Level": 20
+      }
+    },
+    "levels": [
+      1320
+    ],
+    "model": "v2-residual-3fb0a29e8514af8c",
+    "alpha": 0.25,
+    "seed": 20260926,
+    "move_time_ms": 250,
+    "response_grace_ms": 2000,
+    "max_plies": 300,
+    "bootstrap_iterations": 5000,
+    "openings": [
+      {
+        "id": "ext-27",
+        "family": "French Tarrasch",
+        "variant": "1",
+        "fen": "rnbqkb1r/pp1n1ppp/4p3/2ppP3/3P4/3B4/PPPN1PPP/R1BQK1NR w KQkq c6 0 6",
+        "moves": "e2e4 e7e6 d2d4 d7d5 b1d2 g8f6 e4e5 f6d7 f1d3 c7c5"
+      }
+    ],
+    "plan": [
+      {
+        "number": 1,
+        "opening_id": "ext-27",
+        "opponent_elo": 1320,
+        "chessai_color": "white"
+      },
+      {
+        "number": 2,
+        "opening_id": "ext-27",
+        "opponent_elo": 1320,
+        "chessai_color": "black"
+      }
+    ],
+    "implementation_sha256": "2798705093d6d08cb5b0bcf9d39797901dd2a765e8216ce41e149007aa9c91d2",
+    "python": "3.11.6 (tags/v3.11.6:8b6ee5b, Oct  2 2023, 14:57:12) [MSC v.1935 64 bit (AMD64)]",
+    "python_chess": "1.11.2",
+    "rules": {
+      "draws": "automatic claim on actual third repetition or halfmove_clock >= 100; mate/stalemate take precedence",
+      "insufficient_material": "python-chess conservative detection",
+      "max_plies": "draw; count includes forced opening moves",
+      "fault": "forfeit recorded, entire run invalidated and stopped; no selective replay",
+      "adjudication": "no evaluation-based adjudication",
+      "tt": "both cleared before each game; retained between moves within a game",
+      "ponder": false,
+      "book": "only the same forced opening for both engines"
+    },
+    "ordering": "seeded SHA256 opening order, rotated seeded level order, consecutive swapped-color pairs",
+    "games": 2
+  }
+}

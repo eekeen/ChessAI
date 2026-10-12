@@ -1,0 +1,157 @@
+{
+  "name": "Stockfish 19",
+  "id_lines": [
+    "id name Stockfish 19",
+    "id author the Stockfish developers (see AUTHORS file)"
+  ],
+  "binary_sha256": "45bc8e4969147db9c2eb533810637994619bff0eacc81ccfd9854394901bcbd0",
+  "elo_range": [
+    1320,
+    3190
+  ],
+  "supported_options": {
+    "Debug Log File": {
+      "name": "Debug Log File",
+      "type": "string",
+      "raw": "option name Debug Log File type string default <empty>",
+      "default": "<empty>"
+    },
+    "NumaPolicy": {
+      "name": "NumaPolicy",
+      "type": "string",
+      "raw": "option name NumaPolicy type string default auto",
+      "default": "auto"
+    },
+    "Threads": {
+      "name": "Threads",
+      "type": "spin",
+      "raw": "option name Threads type spin default 1 min 1 max 1024",
+      "default": 1,
+      "min": 1,
+      "max": 1024
+    },
+    "Hash": {
+      "name": "Hash",
+      "type": "spin",
+      "raw": "option name Hash type spin default 16 min 1 max 33554432",
+      "default": 16,
+      "min": 1,
+      "max": 33554432
+    },
+    "Clear Hash": {
+      "name": "Clear Hash",
+      "type": "button",
+      "raw": "option name Clear Hash type button"
+    },
+    "Ponder": {
+      "name": "Ponder",
+      "type": "check",
+      "raw": "option name Ponder type check default false",
+      "default": false
+    },
+    "MultiPV": {
+      "name": "MultiPV",
+      "type": "spin",
+      "raw": "option name MultiPV type spin default 1 min 1 max 256",
+      "default": 1,
+      "min": 1,
+      "max": 256
+    },
+    "Skill Level": {
+      "name": "Skill Level",
+      "type": "spin",
+      "raw": "option name Skill Level type spin default 20 min 0 max 20",
+      "default": 20,
+      "min": 0,
+      "max": 20
+    },
+    "Move Overhead": {
+      "name": "Move Overhead",
+      "type": "spin",
+      "raw": "option name Move Overhead type spin default 10 min 0 max 5000",
+      "default": 10,
+      "min": 0,
+      "max": 5000
+    },
+    "nodestime": {
+      "name": "nodestime",
+      "type": "spin",
+      "raw": "option name nodestime type spin default 0 min 0 max 10000",
+      "default": 0,
+      "min": 0,
+      "max": 10000
+    },
+    "UCI_Chess960": {
+      "name": "UCI_Chess960",
+      "type": "check",
+      "raw": "option name UCI_Chess960 type check default false",
+      "default": false
+    },
+    "UCI_LimitStrength": {
+      "name": "UCI_LimitStrength",
+      "type": "check",
+      "raw": "option name UCI_LimitStrength type check default false",
+      "default": false
+    },
+    "UCI_Elo": {
+      "name": "UCI_Elo",
+      "type": "spin",
+      "raw": "option name UCI_Elo type spin default 1320 min 1320 max 3190",
+      "default": 1320,
+      "min": 1320,
+      "max": 3190
+    },
+    "UCI_ShowWDL": {
+      "name": "UCI_ShowWDL",
+      "type": "check",
+      "raw": "option name UCI_ShowWDL type check default false",
+      "default": false
+    },
+    "SyzygyPath": {
+      "name": "SyzygyPath",
+      "type": "string",
+      "raw": "option name SyzygyPath type string default <empty>",
+      "default": "<empty>"
+    },
+    "SyzygyProbeDepth": {
+      "name": "SyzygyProbeDepth",
+      "type": "spin",
+      "raw": "option name SyzygyProbeDepth type spin default 1 min 1 max 100",
+      "default": 1,
+      "min": 1,
+      "max": 100
+    },
+    "Syzygy50MoveRule": {
+      "name": "Syzygy50MoveRule",
+      "type": "check",
+      "raw": "option name Syzygy50MoveRule type check default true",
+      "default": true
+    },
+    "SyzygyProbeLimit": {
+      "name": "SyzygyProbeLimit",
+      "type": "spin",
+      "raw": "option name SyzygyProbeLimit type spin default 7 min 0 max 7",
+      "default": 7,
+      "min": 0,
+      "max": 7
+    },
+    "EvalFile": {
+      "name": "EvalFile",
+      "type": "string",
+      "raw": "option name EvalFile type string default nn-1a298aa575a0.nnue",
+      "default": "nn-1a298aa575a0.nnue"
+    }
+  },
+  "options_used": {
+    "Threads": 1,
+    "Hash": 64,
+    "UCI_LimitStrength": true,
+    "Ponder": false,
+    "MultiPV": 1,
+    "UCI_Chess960": false,
+    "Move Overhead": 0,
+    "nodestime": 0,
+    "SyzygyPath": "",
+    "Skill Level": 20
+  }
+}

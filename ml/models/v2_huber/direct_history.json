@@ -1,0 +1,266 @@
+[
+  {
+    "kind": "direct",
+    "epoch": 1,
+    "train_loss": 0.07604366667076885,
+    "validation_loss": 0.06003323907290281,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 304.31135444121395,
+      "rmse_cp": 485.098462447217
+    }
+  },
+  {
+    "kind": "direct",
+    "epoch": 2,
+    "train_loss": 0.05735004338561954,
+    "validation_loss": 0.05530898781080615,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 283.94920154765407,
+      "rmse_cp": 469.32499063407556
+    }
+  },
+  {
+    "kind": "direct",
+    "epoch": 3,
+    "train_loss": 0.05233297497503445,
+    "validation_loss": 0.053611884002057596,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 276.9317008596795,
+      "rmse_cp": 461.9193137438831
+    }
+  },
+  {
+    "kind": "direct",
+    "epoch": 4,
+    "train_loss": 0.048811963572349425,
+    "validation_loss": 0.05241294523266247,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 271.7036560093369,
+      "rmse_cp": 457.6561884447873
+    }
+  },
+  {
+    "kind": "direct",
+    "epoch": 5,
+    "train_loss": 0.04572886478505981,
+    "validation_loss": 0.05155132545336823,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 268.1554140492063,
+      "rmse_cp": 451.4219575830297
+    }
+  },
+  {
+    "kind": "direct",
+    "epoch": 6,
+    "train_loss": 0.04337726735284084,
+    "validation_loss": 0.05095700656767523,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 265.73294159428434,
+      "rmse_cp": 449.80767930853756
+    }
+  },
+  {
+    "kind": "direct",
+    "epoch": 7,
+    "train_loss": 0.04126506781585931,
+    "validation_loss": 0.05050284311175328,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 264.4502639317124,
+      "rmse_cp": 447.60371039582765
+    }
+  },
+  {
+    "kind": "direct",
+    "epoch": 8,
+    "train_loss": 0.039599681364649024,
+    "validation_loss": 0.05039399203030479,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 262.96741679103707,
+      "rmse_cp": 447.9963868676246
+    }
+  },
+  {
+    "kind": "direct",
+    "epoch": 9,
+    "train_loss": 0.03821353713688254,
+    "validation_loss": 0.050098203125299556,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 261.90708780523806,
+      "rmse_cp": 446.028152112534
+    }
+  },
+  {
+    "kind": "direct",
+    "epoch": 10,
+    "train_loss": 0.03687397096765661,
+    "validation_loss": 0.05022358887724511,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 262.4122020232514,
+      "rmse_cp": 446.9604302036495
+    }
+  },
+  {
+    "kind": "direct",
+    "epoch": 11,
+    "train_loss": 0.03590600873762794,
+    "validation_loss": 0.049755129114451874,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 259.65960838604474,
+      "rmse_cp": 444.7455391779484
+    }
+  },
+  {
+    "kind": "direct",
+    "epoch": 12,
+    "train_loss": 0.034935907705986965,
+    "validation_loss": 0.04982976954864073,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 260.07313495716073,
+      "rmse_cp": 445.8138557784511
+    }
+  },
+  {
+    "kind": "direct",
+    "epoch": 13,
+    "train_loss": 0.03404572306465033,
+    "validation_loss": 0.04977019179973188,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 259.4282109095139,
+      "rmse_cp": 444.10456207739793
+    }
+  },
+  {
+    "kind": "direct",
+    "epoch": 14,
+    "train_loss": 0.03325345257248302,
+    "validation_loss": 0.05053036640811787,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 265.5646234481851,
+      "rmse_cp": 447.4450832516473
+    }
+  },
+  {
+    "kind": "direct",
+    "epoch": 15,
+    "train_loss": 0.03269926920161705,
+    "validation_loss": 0.050258199173993844,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 261.24964584689354,
+      "rmse_cp": 448.8966839066995
+    }
+  },
+  {
+    "kind": "direct",
+    "epoch": 16,
+    "train_loss": 0.03211684741281935,
+    "validation_loss": 0.04958063855243115,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 258.7773460398704,
+      "rmse_cp": 443.2439782674227
+    }
+  },
+  {
+    "kind": "direct",
+    "epoch": 17,
+    "train_loss": 0.03139850357063595,
+    "validation_loss": 0.049838707583042895,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 259.438882423164,
+      "rmse_cp": 446.49746572459105
+    }
+  },
+  {
+    "kind": "direct",
+    "epoch": 18,
+    "train_loss": 0.03102399575053384,
+    "validation_loss": 0.049738546277130646,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 258.5835028892327,
+      "rmse_cp": 445.7044294337406
+    }
+  },
+  {
+    "kind": "direct",
+    "epoch": 19,
+    "train_loss": 0.030700415903723705,
+    "validation_loss": 0.04998526301308409,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 260.55390934761596,
+      "rmse_cp": 447.2719606763191
+    }
+  },
+  {
+    "kind": "direct",
+    "epoch": 20,
+    "train_loss": 0.030124408058090454,
+    "validation_loss": 0.049650104034588895,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 258.5235978900759,
+      "rmse_cp": 446.5899912330108
+    }
+  },
+  {
+    "kind": "direct",
+    "epoch": 21,
+    "train_loss": 0.029755277305849044,
+    "validation_loss": 0.04997370493083026,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 260.1454397844792,
+      "rmse_cp": 448.35958127549213
+    }
+  },
+  {
+    "kind": "direct",
+    "epoch": 22,
+    "train_loss": 0.029367074289026317,
+    "validation_loss": 0.04978603418773684,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 259.9279959773943,
+      "rmse_cp": 447.185853529453
+    }
+  },
+  {
+    "kind": "direct",
+    "epoch": 23,
+    "train_loss": 0.028998011413430773,
+    "validation_loss": 0.050169303657598044,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 262.4829646909328,
+      "rmse_cp": 448.1211450355822
+    }
+  },
+  {
+    "kind": "direct",
+    "epoch": 24,
+    "train_loss": 0.0287563993471669,
+    "validation_loss": 0.05015267578514243,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 260.8112961142646,
+      "rmse_cp": 447.81184698061986
+    }
+  }
+]

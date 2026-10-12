@@ -1,0 +1,74 @@
+{
+  "input": "ml/data/lichess_db_eval.jsonl.zst",
+  "output": "ml/data/lichess_250k.npz",
+  "samples": 250000,
+  "seed": 42,
+  "max_records": 2000000,
+  "dedup_dir": null,
+  "score_perspective": "white",
+  "source": "C:\\Users\\matti\\OneDrive - M\u00e4lardalens universitet\\Desktop\\Projects\\ChessAI\\ml\\data\\lichess_db_eval.jsonl.zst",
+  "source_bytes": 22086532809,
+  "source_mtime_ns": 1790108449054931500,
+  "feature_version": 1,
+  "target_perspective": "white",
+  "clip_cp": 1500,
+  "split_names": [
+    "train",
+    "validation",
+    "test"
+  ],
+  "dedup_key": "piece placement, turn, castling (first usable record wins)",
+  "bin_edges": [
+    -800,
+    -300,
+    -100,
+    100,
+    300,
+    800
+  ],
+  "bin_boundary": "left inclusive, right exclusive",
+  "stats": {
+    "positions_read": 2000000,
+    "positions_accepted": 1999916,
+    "malformed_records": 0,
+    "duplicates": 84
+  },
+  "sampled_bins": [
+    35715,
+    35715,
+    35714,
+    35714,
+    35714,
+    35714,
+    35714
+  ],
+  "unique_bins": [
+    101373,
+    120804,
+    99870,
+    1036130,
+    171667,
+    179562,
+    290510
+  ],
+  "initial_bin_quotas": [
+    35715,
+    35715,
+    35714,
+    35714,
+    35714,
+    35714,
+    35714
+  ],
+  "redistributed_samples": 0,
+  "selected": 250000,
+  "minimum": -1500.0,
+  "maximum": 1500.0,
+  "mean": 6.7641401290893555,
+  "standard_deviation": 825.7098999023438,
+  "split_counts": [
+    200006,
+    24997,
+    24997
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "base_size": 773,
+  "material_values": [100, 320, 330, 500, 900, 0],
+  "phase_weights": [0, 1, 1, 2, 4, 0],
+  "scalars": [
+    {"name": "white_pawns", "kind": "count", "plane": 0, "scale": 8},
+    {"name": "white_knights", "kind": "count", "plane": 1, "scale": 2},
+    {"name": "white_bishops", "kind": "count", "plane": 2, "scale": 2},
+    {"name": "white_rooks", "kind": "count", "plane": 3, "scale": 2},
+    {"name": "white_queens", "kind": "count", "plane": 4, "scale": 1},
+    {"name": "black_pawns", "kind": "count", "plane": 6, "scale": 8},
+    {"name": "black_knights", "kind": "count", "plane": 7, "scale": 2},
+    {"name": "black_bishops", "kind": "count", "plane": 8, "scale": 2},
+    {"name": "black_rooks", "kind": "count", "plane": 9, "scale": 2},
+    {"name": "black_queens", "kind": "count", "plane": 10, "scale": 1},
+    {"name": "material_balance", "kind": "balance", "scale": 4000},
+    {"name": "game_phase", "kind": "phase", "scale": 24},
+    {"name": "white_bishop_pair", "kind": "pair", "plane": 2, "threshold": 2},
+    {"name": "black_bishop_pair", "kind": "pair", "plane": 8, "threshold": 2},
+    {"name": "white_castled_king_location", "kind": "king", "plane": 5, "squares": [2, 6]},
+    {"name": "black_castled_king_location", "kind": "king", "plane": 11, "squares": [58, 62]}
+  ]
+}

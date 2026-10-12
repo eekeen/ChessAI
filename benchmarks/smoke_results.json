@@ -1,0 +1,23 @@
+{
+  "format_version": 1,
+  "complete": true,
+  "config": {"first_evaluator": "classic", "second_evaluator": "hybrid", "games": 4, "time_ms": 0, "fixed_depth": 1, "max_plies": 10, "seed": 42, "bootstrap_samples": 10000, "opening_suite": "common-openings-v1"},
+  "model": "v2-residual-3fb0a29e8514af8c",
+  "models": {"classic": "handcrafted-material-pst", "ml": "v2-direct-3b6bb568881c6bd0", "hybrid": "v2-residual-3fb0a29e8514af8c"},
+  "summary": {
+    "games_completed": 4, "white_wins": 0, "black_wins": 0, "draws": 4,
+    "average_plies": 10,
+    "evaluators": {
+"classic": {"wins": 0, "losses": 0, "draws": 4, "points": 2, "score_percent": 50},
+"hybrid": {"wins": 0, "losses": 0, "draws": 4, "points": 2, "score_percent": 50}},
+    "termination_counts": {"checkmate":0,"fifty_move_rule":0,"insufficient_material":0,"max_ply_draw":4,"repetition":0,"stalemate":0},
+    "elo_first_minus_second": 0,
+    "uncertainty": {"method": "opening-cluster bootstrap, percentile 95%", "clusters": 2, "score_first_ci95": [0.5,0.5], "elo_first_minus_second_ci95": [0,0], "note": "Null score limits mean insufficient opening clusters. Null Elo limits at score 0/1 are unbounded. Bootstrap intervals are conditional on this finite opening suite; identical cluster outcomes yield a degenerate interval. Do not infer significance from small or degenerate samples. Max-ply draws are safety adjudications."}
+  },
+  "games": [
+    {"number": 1, "pair": 1, "white": "classic", "black": "hybrid", "opening": "Petrov", "opening_index": 3, "opening_moves": ["e2e4","e7e5","g1f3","g8f6","f3e5","d7d6"], "result": "1/2-1/2", "termination": "max_ply_draw", "plies": 10, "searched_plies": 4, "elapsed_ms": 7, "nodes": 594, "moves": ["e2e4","e7e5","g1f3","g8f6","f3e5","d7d6","f1b5","c7c6","e5f7","e8f7"]},
+    {"number": 2, "pair": 1, "white": "hybrid", "black": "classic", "opening": "Petrov", "opening_index": 3, "opening_moves": ["e2e4","e7e5","g1f3","g8f6","f3e5","d7d6"], "result": "1/2-1/2", "termination": "max_ply_draw", "plies": 10, "searched_plies": 4, "elapsed_ms": 5, "nodes": 365, "moves": ["e2e4","e7e5","g1f3","g8f6","f3e5","d7d6","f1b5","b8d7","e5d7","c8d7"]},
+    {"number": 3, "pair": 2, "white": "classic", "black": "hybrid", "opening": "Ruy Lopez", "opening_index": 1, "opening_moves": ["e2e4","e7e5","g1f3","b8c6","f1b5","a7a6","b5a4","g8f6"], "result": "1/2-1/2", "termination": "max_ply_draw", "plies": 10, "searched_plies": 2, "elapsed_ms": 3, "nodes": 258, "moves": ["e2e4","e7e5","g1f3","b8c6","f1b5","a7a6","b5a4","g8f6","b1c3","f6g4"]},
+    {"number": 4, "pair": 2, "white": "hybrid", "black": "classic", "opening": "Ruy Lopez", "opening_index": 1, "opening_moves": ["e2e4","e7e5","g1f3","b8c6","f1b5","a7a6","b5a4","g8f6"], "result": "1/2-1/2", "termination": "max_ply_draw", "plies": 10, "searched_plies": 2, "elapsed_ms": 4, "nodes": 322, "moves": ["e2e4","e7e5","g1f3","b8c6","f1b5","a7a6","b5a4","g8f6","e1g1","f8d6"]}
+  ]
+}

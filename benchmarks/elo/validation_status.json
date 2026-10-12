@@ -1,0 +1,46 @@
+{
+  "framework_validated": true,
+  "stockfish_detection": {
+    "found": false,
+    "version": null,
+    "supported_uci_elo_range": null,
+    "searched": [
+      "PATH",
+      "user Downloads",
+      "Desktop and OneDrive Desktop",
+      "C:/Program Files/Stockfish",
+      "C:/Tools"
+    ],
+    "required_next_input": "Installed Stockfish executable path, or explicit request to download an official binary"
+  },
+  "real_stockfish_smoke_run": false,
+  "coarse_ladder_run": false,
+  "final_calibration_run": false,
+  "test_fixture_only": {
+    "games": 2,
+    "wins": 0,
+    "draws": 2,
+    "losses": 0,
+    "termination": "max_ply_draw",
+    "all_moves_legal": true,
+    "searched_moves": 8,
+    "results": "fixture_smoke_results.json"
+  },
+  "calibration_tests_passed": 18,
+  "native_ctest_groups_passed": 4,
+  "existing_tests_passed": [
+    "frozen manifests",
+    "tournament overrides",
+    "hybrid profiler",
+    "engine protocol",
+    "diagnostics",
+    "performance",
+    "GUI defaults",
+    "ML pipeline"
+  ],
+  "protected_pre_profile_artifacts_and_core_files_unchanged": 38,
+  "protected_pre_optimization_artifacts_unchanged": 25,
+  "opening_manifest_sha256": "58520f80a735353a7366d782b38af9ce246110b1ee4c55a6f422fb400f60490e",
+  "model": "v2-residual-3fb0a29e8514af8c",
+  "alpha": 0.25
+}

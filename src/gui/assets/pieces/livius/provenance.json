@@ -1,0 +1,82 @@
+{
+  "author": "Martin Sedl?k (kmar)",
+  "repository": "https://github.com/kmar/chess_svg_piece_sets",
+  "revision": "af40ea51e87eddee1ae7ee35ae312893a1271233",
+  "set": "livius",
+  "license": "Upstream public-domain dedication; repository describes sets as cc0/public domain",
+  "conversion": "Unmodified SVG artwork rasterized to transparent 256x256 PNG using resvg-py 0.5.0; lowercase upstream names mapped to existing GUI names",
+  "files": [
+    {
+      "upstream": "wk.svg",
+      "png": "wK.png",
+      "svg_sha256": "78f45c5ec3bfbd507e75a7f48480dd7d2b3cedd466b80c2c645915235139f9e4",
+      "png_sha256": "4b8903b1cc6597f5b1561b79f1aec9f0fc268c70257374875801a842ce24402c"
+    },
+    {
+      "upstream": "wq.svg",
+      "png": "wQ.png",
+      "svg_sha256": "e9fba3c8d04853c07a9b76b3ec4f8d70ad602eb75e9a0014162a6ea30d10f760",
+      "png_sha256": "32f97d43d553c27eb7474cf3a462b257491bd1ccebd605461c3fb038ebf77722"
+    },
+    {
+      "upstream": "wr.svg",
+      "png": "wR.png",
+      "svg_sha256": "e6a05e313646a1b1fe2008cbcd23a5c0ad79e655469f3b9fb7d8337865f46441",
+      "png_sha256": "6e1e487ba6cd6ca83575c80161335e419d4fc3461a7d35cc8f73f7afc2282961"
+    },
+    {
+      "upstream": "wb.svg",
+      "png": "wB.png",
+      "svg_sha256": "3b948d7a594be5a3b9c239b80ed99bbd428829ba9e9622c186c898a161e4088c",
+      "png_sha256": "1619fa98dbe99bca8619db9e8e9ae1cb829d9d7e8e683b481ed7fe0e8cb3329f"
+    },
+    {
+      "upstream": "wn.svg",
+      "png": "wN.png",
+      "svg_sha256": "c392243fb0549a2d64b5c32904df8a3dfc4fb5da508b572562d0458ae909fed7",
+      "png_sha256": "761d34f1062c7a46bb63b18a798baff03d1268b87e5413f6fbe789bd990470d4"
+    },
+    {
+      "upstream": "wp.svg",
+      "png": "wP.png",
+      "svg_sha256": "cbff11223709d419494ecc49c254126a49fe237b46773d23282b3a891a00ff52",
+      "png_sha256": "3c37ef77c0afa94f3ec1605de3ab59e86542db6ef7f9344315a392d3e5c0a2e6"
+    },
+    {
+      "upstream": "bk.svg",
+      "png": "bK.png",
+      "svg_sha256": "c78fd321b18a151e0a01e59bcd6043eb3d73ae4e3f80c6e2074e7763316ba607",
+      "png_sha256": "a12c488cf71da34be2310f9ed47b6160fbd71e4b4d3b79c0eb61ebe3f620e71c"
+    },
+    {
+      "upstream": "bq.svg",
+      "png": "bQ.png",
+      "svg_sha256": "edeee70030dac37a915b982cb1cad7112c9c467228dcc29c846d0984985a3330",
+      "png_sha256": "4373cce5daee808f50588379148b1da84b12f78f143139a468ac162700223416"
+    },
+    {
+      "upstream": "br.svg",
+      "png": "bR.png",
+      "svg_sha256": "fa8e53b5a1e7ebf211cc5e1ec1681292f31ecd97854010afd6430bb6bdc03747",
+      "png_sha256": "9429ca43d623ea9bd21520d8076dff1a1f60ece8b4b95c5825aba963e65e43a9"
+    },
+    {
+      "upstream": "bb.svg",
+      "png": "bB.png",
+      "svg_sha256": "d049d290b62edff7a2c45ee9f5c64da97851d72c71ad3b48693d22c8951a2e3f",
+      "png_sha256": "2dcc18a1593601d70a4a644ae174b383e7a01730f99495c81a5997417003c312"
+    },
+    {
+      "upstream": "bn.svg",
+      "png": "bN.png",
+      "svg_sha256": "9ea4ca9398b3479146bad78a1151f98784183d2eb8a677a2987cc06b9164dd33",
+      "png_sha256": "4461a225e4f6c6fa20b4781e042a351733936f2d5344b17b9339adf21b3cb357"
+    },
+    {
+      "upstream": "bp.svg",
+      "png": "bP.png",
+      "svg_sha256": "fd94a745b9fa60c20163dff89ae8eedf131b5264c5fb4fd89f186e7f4d9ebb65",
+      "png_sha256": "bdc12ed8cdbb40df9c3b32707f2b6d53b6909996f0470338db3d442815c3bb42"
+    }
+  ]
+}

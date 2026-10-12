@@ -1,0 +1,416 @@
+{
+  "protocol": {
+    "protocol_sha256": "dd2c9b9edd5b3a67789d4d5634de929b70ea7e4f8c5eb8deebf0f6a54ab04d66",
+    "protocol": {
+      "format": 1,
+      "purpose": "test_fixture",
+      "label": "FAKE UCI TEST FIXTURE \u2014 NOT A STOCKFISH CALIBRATION",
+      "manifest_sha256": "58520f80a735353a7366d782b38af9ce246110b1ee4c55a6f422fb400f60490e",
+      "manifest_version": "external-calibration-openings-v1",
+      "chessai": {
+        "type": "hello",
+        "protocol": 1,
+        "model": "v2-residual-3fb0a29e8514af8c",
+        "alpha": 0.25,
+        "mode": "hybrid",
+        "backend": "avx2-tail-active-list",
+        "build": "Release",
+        "compiler": "MSVC-19.28.29914.0",
+        "threads": 1,
+        "tt_entries": 262144,
+        "tt_bytes": 8388608,
+        "max_depth": 64,
+        "binary_sha256": "85c76233d5a86612f5ca4644625a3927605f7bdd6f2ceca6df048c4ebee88b3c"
+      },
+      "stockfish": {
+        "name": "Stockfish FAKE TEST FIXTURE",
+        "id_lines": [
+          "id name Stockfish FAKE TEST FIXTURE"
+        ],
+        "binary_sha256": "1b49d7b34aa85e0c7d1b68cd8868b325f3c450a76bfc97d664bae05e028d83e0",
+        "elo_range": [
+          1200,
+          2600
+        ],
+        "supported_options": {
+          "Threads": {
+            "name": "Threads",
+            "type": "spin",
+            "raw": "option name Threads type spin default 1 min 1 max 16",
+            "default": 1,
+            "min": 1,
+            "max": 16
+          },
+          "Hash": {
+            "name": "Hash",
+            "type": "spin",
+            "raw": "option name Hash type spin default 16 min 1 max 128",
+            "default": 16,
+            "min": 1,
+            "max": 128
+          },
+          "UCI_LimitStrength": {
+            "name": "UCI_LimitStrength",
+            "type": "check",
+            "raw": "option name UCI_LimitStrength type check default false",
+            "default": false
+          },
+          "UCI_Elo": {
+            "name": "UCI_Elo",
+            "type": "spin",
+            "raw": "option name UCI_Elo type spin default 1200 min 1200 max 2600",
+            "default": 1200,
+            "min": 1200,
+            "max": 2600
+          },
+          "Skill Level": {
+            "name": "Skill Level",
+            "type": "spin",
+            "raw": "option name Skill Level type spin default 20 min 0 max 20",
+            "default": 20,
+            "min": 0,
+            "max": 20
+          },
+          "Ponder": {
+            "name": "Ponder",
+            "type": "check",
+            "raw": "option name Ponder type check default false",
+            "default": false
+          },
+          "MultiPV": {
+            "name": "MultiPV",
+            "type": "spin",
+            "raw": "option name MultiPV type spin default 1 min 1 max 256",
+            "default": 1,
+            "min": 1,
+            "max": 256
+          },
+          "Clear Hash": {
+            "name": "Clear Hash",
+            "type": "button",
+            "raw": "option name Clear Hash type button"
+          }
+        },
+        "options_used": {
+          "Threads": 1,
+          "Hash": 64,
+          "UCI_LimitStrength": true,
+          "Ponder": false,
+          "MultiPV": 1,
+          "Skill Level": 20
+        }
+      },
+      "levels": [
+        1200
+      ],
+      "model": "v2-residual-3fb0a29e8514af8c",
+      "alpha": 0.25,
+      "seed": 20260926,
+      "move_time_ms": 5,
+      "response_grace_ms": 2000,
+      "max_plies": 14,
+      "bootstrap_iterations": 100,
+      "openings": [
+        {
+          "id": "ext-01",
+          "family": "Italian",
+          "variant": "1",
+          "fen": "r1bqk2r/ppp2ppp/2np1n2/2b1p3/2B1P3/3P1N2/PPP2PPP/RNBQ1RK1 w kq - 0 6",
+          "moves": "e2e4 e7e5 g1f3 b8c6 f1c4 f8c5 d2d3 g8f6 e1g1 d7d6"
+        }
+      ],
+      "plan": [
+        {
+          "number": 1,
+          "opening_id": "ext-01",
+          "opponent_elo": 1200,
+          "chessai_color": "white"
+        },
+        {
+          "number": 2,
+          "opening_id": "ext-01",
+          "opponent_elo": 1200,
+          "chessai_color": "black"
+        }
+      ],
+      "implementation_sha256": "2798705093d6d08cb5b0bcf9d39797901dd2a765e8216ce41e149007aa9c91d2",
+      "python": "3.11.6 (tags/v3.11.6:8b6ee5b, Oct  2 2023, 14:57:12) [MSC v.1935 64 bit (AMD64)]",
+      "python_chess": "1.11.2",
+      "rules": {
+        "draws": "automatic claim on actual third repetition or halfmove_clock >= 100; mate/stalemate take precedence",
+        "insufficient_material": "python-chess conservative detection",
+        "max_plies": "draw; count includes forced opening moves",
+        "fault": "forfeit recorded, entire run invalidated and stopped; no selective replay",
+        "adjudication": "no evaluation-based adjudication",
+        "tt": "both cleared before each game; retained between moves within a game",
+        "ponder": false,
+        "book": "only the same forced opening for both engines"
+      },
+      "ordering": "seeded SHA256 opening order, rotated seeded level order, consecutive swapped-color pairs",
+      "games": 2
+    }
+  },
+  "machine": {
+    "platform": "Windows-10-10.0.19045-SP0",
+    "processor": "AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD",
+    "python": "3.11.6 (tags/v3.11.6:8b6ee5b, Oct  2 2023, 14:57:12) [MSC v.1935 64 bit (AMD64)]",
+    "cpu": "AMD Ryzen 7 3700X 8-Core Processor"
+  },
+  "started_utc": "2026-09-26T20:27:55.354870+00:00",
+  "complete": true,
+  "valid": true,
+  "games": [
+    {
+      "number": 1,
+      "opening_id": "ext-01",
+      "opponent_elo": 1200,
+      "chessai_color": "white",
+      "opening_fen": "r1bqk2r/ppp2ppp/2np1n2/2b1p3/2B1P3/3P1N2/PPP2PPP/RNBQ1RK1 w kq - 0 6",
+      "opening_family": "Italian",
+      "forced_moves": [
+        "e2e4",
+        "e7e5",
+        "g1f3",
+        "b8c6",
+        "f1c4",
+        "f8c5",
+        "d2d3",
+        "g8f6",
+        "e1g1",
+        "d7d6"
+      ],
+      "moves": [
+        "b1c3",
+        "a7a5",
+        "c1g5",
+        "a5a4"
+      ],
+      "move_timings": [
+        {
+          "type": "move",
+          "move": "b1c3",
+          "search_ms": 5.0042,
+          "engine_time_ms": 5,
+          "nodes": 413,
+          "depth": 1,
+          "response_ms": 0.0,
+          "engine": "chessai",
+          "color": "white",
+          "ply": 11,
+          "requested_ms": 5,
+          "search_overrun_ms": 0.0041999999999999815
+        },
+        {
+          "move": "a7a5",
+          "response_ms": 0.0,
+          "search_ms": 1,
+          "nodes": 17,
+          "depth": 1,
+          "engine": "stockfish",
+          "color": "black",
+          "ply": 12,
+          "requested_ms": 5,
+          "search_overrun_ms": 0
+        },
+        {
+          "type": "move",
+          "move": "c1g5",
+          "search_ms": 5.0288,
+          "engine_time_ms": 5,
+          "nodes": 315,
+          "depth": 1,
+          "response_ms": 0.0,
+          "engine": "chessai",
+          "color": "white",
+          "ply": 13,
+          "requested_ms": 5,
+          "search_overrun_ms": 0.02880000000000038
+        },
+        {
+          "move": "a5a4",
+          "response_ms": 0.0,
+          "search_ms": 1,
+          "nodes": 17,
+          "depth": 1,
+          "engine": "stockfish",
+          "color": "black",
+          "ply": 14,
+          "requested_ms": 5,
+          "search_overrun_ms": 0
+        }
+      ],
+      "result": "1/2-1/2",
+      "termination": "max_ply_draw",
+      "plies": 14,
+      "searched_plies": 4,
+      "white": "chessai",
+      "black": "stockfish",
+      "stockfish_options_used": {
+        "Threads": 1,
+        "Hash": 64,
+        "UCI_LimitStrength": true,
+        "Ponder": false,
+        "MultiPV": 1,
+        "Skill Level": 20,
+        "UCI_Elo": 1200,
+        "Clear Hash": null
+      },
+      "elapsed_ms": 0.0,
+      "final_fen": "r1bqk2r/1pp2ppp/2np1n2/2b1p1B1/p1B1P3/2NP1N2/PPP2PPP/R2Q1RK1 w kq - 0 8"
+    },
+    {
+      "number": 2,
+      "opening_id": "ext-01",
+      "opponent_elo": 1200,
+      "chessai_color": "black",
+      "opening_fen": "r1bqk2r/ppp2ppp/2np1n2/2b1p3/2B1P3/3P1N2/PPP2PPP/RNBQ1RK1 w kq - 0 6",
+      "opening_family": "Italian",
+      "forced_moves": [
+        "e2e4",
+        "e7e5",
+        "g1f3",
+        "b8c6",
+        "f1c4",
+        "f8c5",
+        "d2d3",
+        "g8f6",
+        "e1g1",
+        "d7d6"
+      ],
+      "moves": [
+        "a2a3",
+        "e8g8",
+        "a1a2",
+        "c8g4"
+      ],
+      "move_timings": [
+        {
+          "move": "a2a3",
+          "response_ms": 0.0,
+          "search_ms": 1,
+          "nodes": 17,
+          "depth": 1,
+          "engine": "stockfish",
+          "color": "white",
+          "ply": 11,
+          "requested_ms": 5,
+          "search_overrun_ms": 0
+        },
+        {
+          "type": "move",
+          "move": "e8g8",
+          "search_ms": 5.0112,
+          "engine_time_ms": 5,
+          "nodes": 456,
+          "depth": 1,
+          "response_ms": 0.0,
+          "engine": "chessai",
+          "color": "black",
+          "ply": 12,
+          "requested_ms": 5,
+          "search_overrun_ms": 0.011199999999999655
+        },
+        {
+          "move": "a1a2",
+          "response_ms": 0.0,
+          "search_ms": 1,
+          "nodes": 17,
+          "depth": 1,
+          "engine": "stockfish",
+          "color": "white",
+          "ply": 13,
+          "requested_ms": 5,
+          "search_overrun_ms": 0
+        },
+        {
+          "type": "move",
+          "move": "c8g4",
+          "search_ms": 5.0266,
+          "engine_time_ms": 5,
+          "nodes": 408,
+          "depth": 1,
+          "response_ms": 15.999999828636646,
+          "engine": "chessai",
+          "color": "black",
+          "ply": 14,
+          "requested_ms": 5,
+          "search_overrun_ms": 0.02660000000000018
+        }
+      ],
+      "result": "1/2-1/2",
+      "termination": "max_ply_draw",
+      "plies": 14,
+      "searched_plies": 4,
+      "white": "stockfish",
+      "black": "chessai",
+      "stockfish_options_used": {
+        "Threads": 1,
+        "Hash": 64,
+        "UCI_LimitStrength": true,
+        "Ponder": false,
+        "MultiPV": 1,
+        "Skill Level": 20,
+        "UCI_Elo": 1200,
+        "Clear Hash": null
+      },
+      "elapsed_ms": 15.999999828636646,
+      "final_fen": "r2q1rk1/ppp2ppp/2np1n2/2b1p3/2B1P1b1/P2P1N2/RPP2PPP/1NBQ1RK1 w - - 3 8"
+    }
+  ],
+  "summary": {
+    "levels": {
+      "1200": {
+        "games": 2,
+        "wins": 0,
+        "draws": 2,
+        "losses": 0,
+        "score_percent": 50.0,
+        "average_plies": 14,
+        "termination_counts": {
+          "max_ply_draw": 2
+        },
+        "by_color": {
+          "white": {
+            "games": 1,
+            "wins": 0,
+            "draws": 1,
+            "losses": 0,
+            "score_percent": 50.0
+          },
+          "black": {
+            "games": 1,
+            "wins": 0,
+            "draws": 1,
+            "losses": 0,
+            "score_percent": 50.0
+          }
+        },
+        "score_ci95_percent": null,
+        "opening_clusters": 1
+      }
+    },
+    "calibration": {
+      "estimate": null,
+      "ci95": null,
+      "reason": "Fewer than two independent opening clusters; no uncertainty estimate",
+      "phase": "test_fixture"
+    }
+  },
+  "timing_summary": {
+    "chessai": {
+      "moves": 4,
+      "mean_response_ms": 3.9999999571591616,
+      "mean_search_ms": 5.0177,
+      "max_search_ms": 5.0288,
+      "searches_over_budget": 4
+    },
+    "stockfish": {
+      "moves": 4,
+      "mean_response_ms": 0.0,
+      "mean_search_ms": 1.0,
+      "max_search_ms": 1,
+      "searches_over_budget": 0
+    }
+  },
+  "finished_utc": "2026-09-26T20:27:55.396463+00:00"
+}

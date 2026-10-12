@@ -1,0 +1,64 @@
+# Build / CTest / IDE artifacts
+/build/
+/build-*/
+/Testing/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+*.obj
+*.pdb
+*.ilk
+*.exe
+*.dll
+*.lib
+.vs/
+# Keep portable VS Code tasks/settings; ignore explicitly local overrides only.
+.vscode/*.local.json
+.idea/
+*.user
+*.suo
+# Python and local state
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+desktop.ini
+# Raw datasets and training intermediates (production headers are included)
+/ml/data/*
+!/ml/data/.gitkeep
+!/ml/data/lichess_250k.metadata.json
+!/ml/data/lichess_250k_v2.metadata.json
+/ml/models/**
+!/ml/models/.gitkeep
+!/ml/models/metrics.json
+!/ml/models/v2_huber/
+!/ml/models/v2_mse/
+!/ml/models/v2_huber/comparison.json
+!/ml/models/v2_huber/direct_history.json
+!/ml/models/v2_huber/residual_history.json
+!/ml/models/v2_mse/comparison.json
+!/ml/models/v2_mse/direct_history.json
+!/ml/models/v2_mse/residual_history.json
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.prof
+temp/
+tmp/
+# External engine installed separately
+/stockfish/
+# Ad-hoc outputs; frozen benchmark JSON and TSV remain included
+/benchmarks/local/
+/benchmark_results.json
+/benchmark_results.json.tmp
+# Empty, unused legacy placeholders; README.md is canonical.
+/README.txt
+/ml/generate_dataset.py

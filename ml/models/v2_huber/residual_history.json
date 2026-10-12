@@ -1,0 +1,288 @@
+[
+  {
+    "kind": "residual",
+    "epoch": 1,
+    "train_loss": 0.07349224117883221,
+    "validation_loss": 0.05971448357267039,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 303.9005326573055,
+      "rmse_cp": 484.4217311411845
+    }
+  },
+  {
+    "kind": "residual",
+    "epoch": 2,
+    "train_loss": 0.05633197605047243,
+    "validation_loss": 0.054656909234475325,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 282.368696052079,
+      "rmse_cp": 463.3843590997065
+    }
+  },
+  {
+    "kind": "residual",
+    "epoch": 3,
+    "train_loss": 0.0508116109331007,
+    "validation_loss": 0.05242340805924946,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 273.4944191974712,
+      "rmse_cp": 453.21193072602375
+    }
+  },
+  {
+    "kind": "residual",
+    "epoch": 4,
+    "train_loss": 0.0471535671982192,
+    "validation_loss": 0.051666903270822614,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 271.12157430369393,
+      "rmse_cp": 450.3512550167473
+    }
+  },
+  {
+    "kind": "residual",
+    "epoch": 5,
+    "train_loss": 0.044272072502564236,
+    "validation_loss": 0.05084765043902334,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 267.74283946979693,
+      "rmse_cp": 446.4446589255033
+    }
+  },
+  {
+    "kind": "residual",
+    "epoch": 6,
+    "train_loss": 0.04220796748403478,
+    "validation_loss": 0.050313823547829775,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 266.146784172755,
+      "rmse_cp": 443.3466077116954
+    }
+  },
+  {
+    "kind": "residual",
+    "epoch": 7,
+    "train_loss": 0.0402708804210481,
+    "validation_loss": 0.04973381932054723,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 262.88238911681276,
+      "rmse_cp": 441.5243080302921
+    }
+  },
+  {
+    "kind": "residual",
+    "epoch": 8,
+    "train_loss": 0.03879262839080116,
+    "validation_loss": 0.049449671215524425,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 262.4780362573925,
+      "rmse_cp": 440.0757931386134
+    }
+  },
+  {
+    "kind": "residual",
+    "epoch": 9,
+    "train_loss": 0.03744879745382579,
+    "validation_loss": 0.049653335141883165,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 262.3288343983846,
+      "rmse_cp": 442.05725804273663
+    }
+  },
+  {
+    "kind": "residual",
+    "epoch": 10,
+    "train_loss": 0.036238537617507935,
+    "validation_loss": 0.04918919410987572,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 260.7739418385343,
+      "rmse_cp": 439.3081695910877
+    }
+  },
+  {
+    "kind": "residual",
+    "epoch": 11,
+    "train_loss": 0.03539347512621787,
+    "validation_loss": 0.04887191604639887,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 259.24350185728974,
+      "rmse_cp": 439.2443546894484
+    }
+  },
+  {
+    "kind": "residual",
+    "epoch": 12,
+    "train_loss": 0.03455106095545334,
+    "validation_loss": 0.04905840433624035,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 259.7821385072375,
+      "rmse_cp": 440.39242213116756
+    }
+  },
+  {
+    "kind": "residual",
+    "epoch": 13,
+    "train_loss": 0.03367630956744606,
+    "validation_loss": 0.04910026268076162,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 260.2221950046009,
+      "rmse_cp": 438.82640946279025
+    }
+  },
+  {
+    "kind": "residual",
+    "epoch": 14,
+    "train_loss": 0.033073084820962856,
+    "validation_loss": 0.04908381908908331,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 259.2968858533961,
+      "rmse_cp": 440.41647717827345
+    }
+  },
+  {
+    "kind": "residual",
+    "epoch": 15,
+    "train_loss": 0.0324227152411993,
+    "validation_loss": 0.049229232530882815,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 259.7211653333085,
+      "rmse_cp": 442.5633690201297
+    }
+  },
+  {
+    "kind": "residual",
+    "epoch": 16,
+    "train_loss": 0.03202058071171663,
+    "validation_loss": 0.04892818079787294,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 259.37800240410076,
+      "rmse_cp": 439.1885872553631
+    }
+  },
+  {
+    "kind": "residual",
+    "epoch": 17,
+    "train_loss": 0.03145252018869677,
+    "validation_loss": 0.04901956179661453,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 258.8724304421709,
+      "rmse_cp": 441.9093589516763
+    }
+  },
+  {
+    "kind": "residual",
+    "epoch": 18,
+    "train_loss": 0.030944469505237528,
+    "validation_loss": 0.048861746031625373,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 258.0183451739641,
+      "rmse_cp": 440.5280399758208
+    }
+  },
+  {
+    "kind": "residual",
+    "epoch": 19,
+    "train_loss": 0.03054744853912537,
+    "validation_loss": 0.05003737484216221,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 263.4846483095768,
+      "rmse_cp": 447.21585583693144
+    }
+  },
+  {
+    "kind": "residual",
+    "epoch": 20,
+    "train_loss": 0.030020707749403176,
+    "validation_loss": 0.04943009905380501,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 260.7861140760397,
+      "rmse_cp": 442.9272056128513
+    }
+  },
+  {
+    "kind": "residual",
+    "epoch": 21,
+    "train_loss": 0.029738346299113764,
+    "validation_loss": 0.049285897846392104,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 259.69892034151223,
+      "rmse_cp": 442.6248283627149
+    }
+  },
+  {
+    "kind": "residual",
+    "epoch": 22,
+    "train_loss": 0.02949852990504432,
+    "validation_loss": 0.04938087297836944,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 260.1624584791684,
+      "rmse_cp": 443.16848807941057
+    }
+  },
+  {
+    "kind": "residual",
+    "epoch": 23,
+    "train_loss": 0.029171992452208362,
+    "validation_loss": 0.04943165175039923,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 260.06727370240765,
+      "rmse_cp": 443.78996994161463
+    }
+  },
+  {
+    "kind": "residual",
+    "epoch": 24,
+    "train_loss": 0.028828701516337235,
+    "validation_loss": 0.0496104748358067,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 261.4757985291054,
+      "rmse_cp": 443.5712831058925
+    }
+  },
+  {
+    "kind": "residual",
+    "epoch": 25,
+    "train_loss": 0.028468939901326124,
+    "validation_loss": 0.050013515261584804,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 262.7715608411161,
+      "rmse_cp": 445.98942986420684
+    }
+  },
+  {
+    "kind": "residual",
+    "epoch": 26,
+    "train_loss": 0.02828628281460413,
+    "validation_loss": 0.0494244424647505,
+    "validation": {
+      "count": 24997,
+      "mae_cp": 260.596608994963,
+      "rmse_cp": 443.0923289610093
+    }
+  }
+]

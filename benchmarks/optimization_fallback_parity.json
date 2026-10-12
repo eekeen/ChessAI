@@ -1,0 +1,45 @@
+{
+  "model": "v2-residual-3fb0a29e8514af8c",
+  "alpha": 0.25,
+  "positions": 250000,
+  "avx2_active": false,
+  "backends": [
+    {
+      "name": "tail",
+      "exact_residual_matches": 250000,
+      "max_difference_cp": 0,
+      "mean_difference_cp": 0,
+      "integer_hybrid_changes": 0
+    },
+    {
+      "name": "sparse",
+      "exact_residual_matches": 250000,
+      "max_difference_cp": 0,
+      "mean_difference_cp": 0,
+      "integer_hybrid_changes": 0
+    },
+    {
+      "name": "active_list",
+      "exact_residual_matches": 250000,
+      "max_difference_cp": 0,
+      "mean_difference_cp": 0,
+      "integer_hybrid_changes": 0
+    },
+    {
+      "name": "sparse_only",
+      "exact_residual_matches": 250000,
+      "max_difference_cp": 0,
+      "mean_difference_cp": 0,
+      "integer_hybrid_changes": 0
+    },
+    {
+      "name": "active_list_only",
+      "exact_residual_matches": 250000,
+      "max_difference_cp": 0,
+      "mean_difference_cp": 0,
+      "integer_hybrid_changes": 0
+    }
+  ],
+  "dataset_sha256": "869a27740ea4784aacea304ba43cc34744550ba57dd49a1785c102970d0e13cc",
+  "executable_sha256": "5f19159f378d2f2db6bfa5ebef74d8a93226f83ee26bddd781aab1182d23133f"
+}
